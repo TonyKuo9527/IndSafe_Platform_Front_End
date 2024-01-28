@@ -161,7 +161,7 @@ export default {
         showLiveModel(item) {
             this.channelName = item.channelName;
             this.cameraID = item.cameraID;
-            this.rtsp = "https://rtsp.ap.ngrok.io/video_feed/" + item.cameraID;
+            this.rtsp = "https://rtsp.jp.ngrok.io/video_feed/" + item.cameraID;
 
             this.liveModel = true;
         },
